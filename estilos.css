@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+#title{
+    text-align: center;
+font-size: 2rem;
+    padding: 0px;
+}
+#main{
+    padding: 10px;
+    background-color:#eee;
+    border-radius: 14px;
+    margin-top: 30px;
+    font-family: 'Lora', sans-serif;
+}
+#para{
+    font-size: medium;
+    font-style: italic;
+    color: black;
+
+}
+#img-div{
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;   
+}
+#image{
+    border-radius: 20px;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+#img-caption{
+    text-align: center;
+    font-size: medium;
+    font-style: oblique;
+
+}
+#tribute-info{
+    justify-content: center;
+    text-align: center;
+    background-color: #eee;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+h2{
+    text-align: center;
+    color: #677353;
+  }
+  @media only screen and (max-width: 768px) {
+    #image{
+        align-self: center;
+        margin-left: 2%;
+        max-height: 100%;
+        max-width: 100%;
+        display: block;
+    }
+  }
+  #tribute-link:hover
+{
+color: blue;
+transform: scale(2);
+}
